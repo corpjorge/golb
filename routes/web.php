@@ -24,3 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resources([
     'photos' => 'PhotoController',
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

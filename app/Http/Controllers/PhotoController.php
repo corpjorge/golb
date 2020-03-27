@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Photo;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Psr\Http\Message\ServerRequestInterface;
+use Illuminate\Support\Facades\Cookie;
 
 class PhotoController extends Controller
 {
@@ -38,7 +38,7 @@ class PhotoController extends Controller
      */
     public function index(Request $request)
     {
-        dd($request->flash());
+
     }
 
     /**
