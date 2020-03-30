@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/SendEmails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/tinker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.invokable.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.model.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.model.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.nested.api.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.nested.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.plain.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/controller.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/job.queued.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/job.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.create.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/migration.update.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/model.pivot.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/model.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/request.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/test.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/test.unit.stub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +171,7 @@
       <workItem from="1583960677990" duration="1283000" />
       <workItem from="1585101203666" duration="7226000" />
       <workItem from="1585273160251" duration="1488000" />
-      <workItem from="1585587208052" duration="3134000" />
+      <workItem from="1585587208052" duration="4576000" />
     </task>
     <servers />
   </component>
