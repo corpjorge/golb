@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Cache;
+use App\Events\OrderShipped;
+use Illuminate\Support\Facades\Http;
 
 class PhotoController extends Controller
 {
@@ -37,10 +39,9 @@ class PhotoController extends Controller
      * @param Request $request
      * @return void
      */
-    public function index(Request $request)
+    public function index()
     {
-        $collection = collect([1, 2, 3]);
-        dd($collection);
+        event(new OrderShipped('hello world'));
     }
 
     /**

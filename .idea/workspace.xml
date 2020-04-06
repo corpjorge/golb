@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_06_001312_create_cache_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/golb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/OrderShipped.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/SendShipmentNotification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +186,8 @@
       <workItem from="1585770939566" duration="679000" />
       <workItem from="1585845679798" duration="654000" />
       <workItem from="1585929744942" duration="2386000" />
-      <workItem from="1586130629369" duration="3991000" />
+      <workItem from="1586130629369" duration="5080000" />
+      <workItem from="1586141360827" duration="1749000" />
     </task>
     <servers />
   </component>
@@ -195,10 +198,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1840" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583960656374">
-      <screen x="1440" y="0" width="1440" height="860" />
+    <state x="533" y="191" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586141350945">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1840" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960656374" />
+    <state x="533" y="191" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586141350945" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585599272031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,12 +243,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585101555125" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586131467505">
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586141361270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583936859269" />
     <state x="1856" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960685591" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586131467505" />
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586141361270" />
     <state x="1969" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583962297978">
       <screen x="1440" y="0" width="1440" height="860" />
     </state>
