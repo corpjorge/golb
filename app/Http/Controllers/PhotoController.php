@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Photo;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Cache;
 use App\Events\OrderShipped;
 use Illuminate\Support\Facades\Http;
+use App\Notifications\InvoicePaid;
 
 class PhotoController extends Controller
 {
@@ -41,7 +43,10 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        event(new OrderShipped('hello world'));
+        $user = User::find(1);
+        //\Notification::send($user, new InvoicePaid('toArray'));
+
+        $user->unreadNotifications()->update(['read_at' => now()]);
     }
 
     /**
