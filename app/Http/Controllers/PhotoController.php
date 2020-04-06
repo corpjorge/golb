@@ -6,6 +6,7 @@ use App\Photo;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Cache;
 
 class PhotoController extends Controller
 {
@@ -38,7 +39,8 @@ class PhotoController extends Controller
      */
     public function index(Request $request)
     {
-
+        $collection = collect([1, 2, 3]);
+        dd($collection);
     }
 
     /**
