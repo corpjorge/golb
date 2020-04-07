@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Notifications/InvoicePaid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_06_044032_create_notifications_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" afterDir="false" />
-    </list>
+    <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +177,7 @@
       <workItem from="1585845679798" duration="654000" />
       <workItem from="1585929744942" duration="2386000" />
       <workItem from="1586130629369" duration="5080000" />
-      <workItem from="1586141360827" duration="7744000" />
+      <workItem from="1586141360827" duration="8398000" />
     </task>
     <servers />
   </component>
