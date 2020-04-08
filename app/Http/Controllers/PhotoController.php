@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Cache;
 use App\Events\OrderShipped;
 use Illuminate\Support\Facades\Http;
 use App\Notifications\InvoicePaid;
+use App\Jobs\ProcessPodcast;
 
 class PhotoController extends Controller
 {
@@ -29,7 +30,6 @@ class PhotoController extends Controller
         $this->middleware('auth');
 
         //$this->middleware('log')->only('index');
-
         //$this->middleware('subscribed')->except('store');
 
         $this->users = $users;
@@ -43,10 +43,9 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        $user = User::find(1);
-        //\Notification::send($user, new InvoicePaid('toArray'));
+        ProcessPodcast::dispatch(1);
+        //ProcessPodcast::dispatch(1)->onQueue('processing');
 
-        $user->unreadNotifications()->update(['read_at' => now()]);
     }
 
     /**
