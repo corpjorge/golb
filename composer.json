@@ -18,6 +18,8 @@
         "laravel/passport": "^8.4",
         "laravel/sanctum": "^2.1",
         "laravel/scout": "^8.0",
+        "laravel/socialite": "^4.3",
+        "laravel/telescope": "^3.2",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "nyholm/psr7": "^1.2",
