@@ -45,9 +45,9 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        return (new UserResource(User::find(1)))
-            ->response()
-            ->header('X-Value', 'True');
+        $user = User::find(1);
+
+        return (string) $user;
     }
 
     /**
