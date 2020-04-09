@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/TelescopeServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/telescope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/golb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +81,7 @@
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
@@ -132,6 +141,36 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
+      <path value="$PROJECT_DIR$/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/laravel/cashier" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/scout" />
+      <path value="$PROJECT_DIR$/vendor/algolia/algoliasearch-client-php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Yu94IbVvthg5RFO8d3vEgX15DY" />
@@ -172,6 +211,15 @@
       <workItem from="1585101203666" duration="7226000" />
       <workItem from="1585273160251" duration="1488000" />
       <workItem from="1585587208052" duration="4576000" />
+      <workItem from="1585684654123" duration="1306000" />
+      <workItem from="1585770939566" duration="679000" />
+      <workItem from="1585845679798" duration="654000" />
+      <workItem from="1585929744942" duration="2386000" />
+      <workItem from="1586130629369" duration="5080000" />
+      <workItem from="1586141360827" duration="8398000" />
+      <workItem from="1586220262151" duration="600000" />
+      <workItem from="1586317390423" duration="5345000" />
+      <workItem from="1586394783282" duration="13726000" />
     </task>
     <servers />
   </component>
@@ -182,10 +230,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1840" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583960656374">
-      <screen x="1440" y="0" width="1440" height="860" />
+    <state x="533" y="191" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586141350945">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1840" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960656374" />
+    <state x="533" y="191" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586141350945" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585599272031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,22 +251,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="496" y="343" key="ComposerInitDialogKey/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583858729511" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585109630008">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586410313821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585109630008" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585109630008">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586410313821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585109630008" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585109630008">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586410313821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585109630008" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585109630008">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586410313821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585109630008" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
     <state x="751" y="334" key="NewPhpClassDialog" timestamp="1585599037704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,12 +275,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585101555125" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1585597254364">
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586394808264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583936859269" />
     <state x="1856" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960685591" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585597254364" />
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586394808264" />
     <state x="1969" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583962297978">
       <screen x="1440" y="0" width="1440" height="860" />
     </state>
@@ -240,5 +289,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="195" key="run.anything.popup/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583858768577" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586413507970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586413507970" />
   </component>
 </project>

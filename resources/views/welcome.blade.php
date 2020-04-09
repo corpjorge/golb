@@ -8,6 +8,22 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+        <script>
+
+            // Enable pusher logging - don't include this in production
+            Pusher.logToConsole = true;
+
+            var pusher = new Pusher('fcae0d58f01c4072532a', {
+                cluster: 'us2',
+                forceTLS: true
+            });
+
+            var channel = pusher.subscribe('my-channel');
+            channel.bind('my-event', function(data) {
+                alert(JSON.stringify(data));
+            });
+        </script>
 
         <!-- Styles -->
         <style>
@@ -80,20 +96,10 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <h1>Laravel</h1>
+                <p>
                     Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </p>
             </div>
         </div>
     </body>
