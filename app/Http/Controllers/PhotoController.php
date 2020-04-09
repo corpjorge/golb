@@ -43,8 +43,13 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        ProcessPodcast::dispatch(1);
-        //ProcessPodcast::dispatch(1)->onQueue('processing');
+        $titles = User::paginate()->dd();
+
+
+
+        foreach ($titles as $title) {
+            echo $title;
+        }
 
     }
 
