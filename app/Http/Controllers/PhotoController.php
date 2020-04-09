@@ -12,6 +12,8 @@ use App\Events\OrderShipped;
 use Illuminate\Support\Facades\Http;
 use App\Notifications\InvoicePaid;
 use App\Jobs\ProcessPodcast;
+use App\Http\Resources\User as UserResource;
+use App\Http\Resources\UserCollection;
 
 class PhotoController extends Controller
 {
@@ -43,14 +45,9 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        $titles = User::paginate()->dd();
-
-
-
-        foreach ($titles as $title) {
-            echo $title;
-        }
-
+        return (new UserResource(User::find(1)))
+            ->response()
+            ->header('X-Value', 'True');
     }
 
     /**
