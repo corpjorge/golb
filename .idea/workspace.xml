@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="" />
+    <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Broadcasting/UserBroadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +209,8 @@
       <workItem from="1586141360827" duration="8398000" />
       <workItem from="1586220262151" duration="600000" />
       <workItem from="1586317390423" duration="5345000" />
-      <workItem from="1586394783282" duration="13973000" />
+      <workItem from="1586394783282" duration="14766000" />
+      <workItem from="1586466011591" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -238,22 +242,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="496" y="343" key="ComposerInitDialogKey/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583858729511" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
     <state x="751" y="334" key="NewPhpClassDialog" timestamp="1585599037704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,12 +266,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585101555125" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586394808264">
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586466016997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583936859269" />
     <state x="1856" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960685591" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586394808264" />
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586466016997" />
     <state x="1969" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583962297978">
       <screen x="1440" y="0" width="1440" height="860" />
     </state>
