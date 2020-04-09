@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/LoginTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/Pages/HomePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/Pages/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/console/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Browser/screenshots/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DuskTestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/UserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/golb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +137,15 @@
       <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
       <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
       <path value="$PROJECT_DIR$/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/laravel/cashier" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Yu94IbVvthg5RFO8d3vEgX15DY" />
@@ -198,7 +194,7 @@
       <workItem from="1586141360827" duration="8398000" />
       <workItem from="1586220262151" duration="600000" />
       <workItem from="1586317390423" duration="5345000" />
-      <workItem from="1586394783282" duration="8139000" />
+      <workItem from="1586394783282" duration="8381000" />
     </task>
     <servers />
   </component>
