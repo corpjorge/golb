@@ -3,11 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Photo;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Cache;
+use App\Events\OrderShipped;
+use Illuminate\Support\Facades\Http;
+use App\Notifications\InvoicePaid;
+use App\Jobs\ProcessPodcast;
+use App\Http\Resources\User as UserResource;
+use App\Http\Resources\UserCollection;
 
-class PhotoController extends Controller
+class PhotoController extends Controller implements PhotoControllerInterface
 {
     /**
      * The user repository instance.
@@ -24,7 +32,6 @@ class PhotoController extends Controller
         $this->middleware('auth');
 
         //$this->middleware('log')->only('index');
-
         //$this->middleware('subscribed')->except('store');
 
         $this->users = $users;
@@ -33,10 +40,10 @@ class PhotoController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @param Request $request
+     * @param null $dagos
      * @return void
      */
-    public function index(Request $request)
+    public function index($dagos = NULL)
     {
 
     }
