@@ -15,7 +15,7 @@ use App\Jobs\ProcessPodcast;
 use App\Http\Resources\User as UserResource;
 use App\Http\Resources\UserCollection;
 
-class PhotoController extends Controller
+class PhotoController extends Controller implements PhotoControllerInterface
 {
     /**
      * The user repository instance.
@@ -40,14 +40,12 @@ class PhotoController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @param Request $request
+     * @param null $dagos
      * @return void
      */
-    public function index()
+    public function index($dagos = NULL)
     {
-        $user = User::find(1);
 
-        return (string) $user;
     }
 
     /**
