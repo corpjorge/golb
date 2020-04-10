@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755ea042-aac1-4863-b172-096393be705f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Providers/TelescopeServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/telescope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/golb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PhotoControllerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +210,8 @@
       <workItem from="1586141360827" duration="8398000" />
       <workItem from="1586220262151" duration="600000" />
       <workItem from="1586317390423" duration="5345000" />
-      <workItem from="1586394783282" duration="13726000" />
+      <workItem from="1586394783282" duration="14766000" />
+      <workItem from="1586466011591" duration="5371000" />
     </task>
     <servers />
   </component>
@@ -235,10 +227,18 @@
     </state>
     <state x="1840" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960656374" />
     <state x="533" y="191" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586141350945" />
+    <state x="651" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586474114457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586474114457" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585599272031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585599272031" />
+    <state x="702" y="207" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#" timestamp="1586473213932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="207" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/0.0.1920.1040@0.0.1920.1040" timestamp="1586473213932" />
     <state x="1844" y="85" width="645" height="690" key="#phpunit.xml" timestamp="1583960740976">
       <screen x="1440" y="0" width="1440" height="860" />
     </state>
@@ -251,22 +251,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="496" y="343" key="ComposerInitDialogKey/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583858729511" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586410313821">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586415776336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586410313821" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586415776336" />
     <state x="751" y="334" key="NewPhpClassDialog" timestamp="1585599037704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,12 +275,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585101555125" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586394808264">
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1586466016997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1583936859269" />
     <state x="1856" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1583960685591" />
-    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586394808264" />
+    <state x="555" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586466016997" />
     <state x="1969" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583962297978">
       <screen x="1440" y="0" width="1440" height="860" />
     </state>
